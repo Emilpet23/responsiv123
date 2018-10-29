@@ -1,3 +1,29 @@
 nav {
   background: #F0EFEF;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.headerbillede {
+  max-width: 100%;
+  position: relative;
+}
+
+.forsidetext {
+  text-align: center;
+}
+
+.forsidetext h3 {
+  color: #6F9EEA;
+}
+
+.row {
+  text-align: center;
+}
+
+.ikonpic {
+  width: 75px;
+  height: 75px;
+}
