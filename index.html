@@ -11,22 +11,22 @@
   </head>
   <body>
 
-    <nav>
+    <nav class="d-none d-sm-block">
       <div class="row justify-content-between">
-        <div class="col-4">
+        <div class="col">
           <a href="index.html"><img src="assets/images/odenseaafart2.png" class="aafartimg" alt="Odense Aafart logo"></a>
         </div>
-      <div class="dropdown col-4">
-        <a href="index.html" class="">Forside</a>
-        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">Priser</button>
+      <div class="dropdown col-5">
+        <a href="index.html" class="btn my-btn">Forside</a>
+        <button type="button" class="btn dropdown-toggle my-btn" data-toggle="dropdown">Priser</button>
         <div class="dropdown-menu">
           <a class="dropdown-item" href="#">Sejltur</a>
           <a class="dropdown-item" href="#">Vandcykler</a>
           <a class="dropdown-item" href="#">Kanoudlejning</a>
           <a class="dropdown-item" href="#">Lej en turbåd</a>
         </div>
-        <a href="#" class="dropbtn">Events</a>
-        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">Info</button>
+        <a href="#" class="btn my-btn">Events</a>
+        <button type="button" class="btn dropdown-toggle my-btn" data-toggle="dropdown">Info</button>
         <div class="dropdown-menu">
           <a class="dropdown-item" href="#">Åbningstider</a>
           <a class="dropdown-item" href="#">Find os her</a>
@@ -34,11 +34,37 @@
           <a class="dropdown-item" href="#">Historie</a>
           <a class="dropdown-item" href="#">FAQ</a>
         </div>
-        <a href="#" class="">Kontakt</a>
+        <a href="#" class="btn my-btn">Kontakt</a>
         <a href="#" class="btn btn-danger">Køb Billet</a>
       </div>
       </div>
     </nav>
+
+    <nav class="navbar navbar-dark d-sm-block d-md-none">
+
+      <div class="col">
+        <a href="index.html"><img src="assets/images/odenseaafart2.png" class="aafartimg2" alt="Odense Aafart logo"></a>
+      </div>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
 
     <header class="headerpic-container">
@@ -123,5 +149,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
   </body>
-
 </html>

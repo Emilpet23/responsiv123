@@ -1,5 +1,26 @@
 nav {
   background: #F0EFEF;
+  height: 115px;
+}
+
+.my-btn {
+  color: black;
+  background: #F0EFEF;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.btn {
+  margin-top: 60px;
+}
+
+.dropdown-menu {
+  border: none;
+  background: #F0EFEF;
+}
+
+.aafartimg2 {
+  width: 90%
 }
 
 body {
