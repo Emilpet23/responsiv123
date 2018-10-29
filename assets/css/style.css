@@ -1,3 +1,17 @@
 nav {
   background: #F0EFEF;
+  height: 115px;
+}
+
+.my-btn {
+  color: black;
+  background: #F0EFEF;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.dropdown-item {
+  background: #F0EFEF;
+  color: black;
+  border: none;
 }
