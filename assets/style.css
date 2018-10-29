@@ -1,1 +1,20 @@
+<<<<<<< HEAD
+footer {
+  height: 25vh;
+  color: black;
+  background: white;
+  margin:0;
+  text-align: center;
+  opacity: .8;
+}
 
+footer p {
+  padding: 0;
+  padding-top: 40px;
+  margin: 0;
+
+=======
+.navigation {
+  background; green;
+>>>>>>> 6d81936ba1030b016c166900de73a4347310a043
+}
