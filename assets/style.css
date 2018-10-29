@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 .navigation {
   background; green;
 }
+=======
+
+>>>>>>> 080cb178a4ac70c54ca28cb69c045ee9cb846ff5
 footer {
   height: 25vh;
   color: black;
@@ -13,6 +17,7 @@ footer p {
   padding: 0;
   padding-top: 40px;
   margin: 0;
+<<<<<<< HEAD
   }
   footer i {
   font-size: 30px;
@@ -27,3 +32,5 @@ footer p {
 footer i:last-child {
   margin-right: 0;
 }
+=======
+>>>>>>> 080cb178a4ac70c54ca28cb69c045ee9cb846ff5
