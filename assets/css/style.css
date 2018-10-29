@@ -10,8 +10,15 @@ nav {
   font-weight: bold;
 }
 
-.dropdown-item {
-  background: #F0EFEF;
-  color: black;
+.btn {
+  margin-top: 60px;
+}
+
+.dropdown-menu {
   border: none;
+  background: #F0EFEF;
+}
+
+.aafartimg2 {
+  width: 90%
 }
