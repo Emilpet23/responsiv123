@@ -6,39 +6,37 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <title>Odense Aafart</title>
   </head>
   <body>
 
-    <nav>
-      <div class="row justify-content-between">
-        <div class="col-4">
-          <a href="index.html"><img src="assets/images/odenseaafart2.png" class="aafartimg" alt="Odense Aafart logo"></a>
-        </div>
-      <div class="dropdown col-4">
-        <a href="index.html" class="my-btn">Forside</a>
-        <button type="button" class="btn dropdown-toggle my-btn" data-toggle="dropdown">Priser</button>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Sejltur</a>
-          <a class="dropdown-item" href="#">Vandcykler</a>
-          <a class="dropdown-item" href="#">Kanoudlejning</a>
-          <a class="dropdown-item" href="#">Lej en turbåd</a>
-        </div>
-        <a href="#" class="my-btn">Events</a>
-        <button type="button" class="btn dropdown-toggle my-btn" data-toggle="dropdown">Info</button>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Åbningstider</a>
-          <a class="dropdown-item" href="#">Find os her</a>
-          <a class="dropdown-item" href="#">Praktisk info</a>
-          <a class="dropdown-item" href="#">Historie</a>
-          <a class="dropdown-item" href="#">FAQ</a>
-        </div>
-        <a href="#" class="my-btn">Kontakt</a>
-        <a href="#" class="btn btn-danger">Køb Billet</a>
+    <div class="row">
+      <div class="col">
+        <a href="index.html"><img src="assets/images/odenseaafart.png" class="aafartimg" alt="Odense Aafart logo"></a>
       </div>
+    <div class="dropdown">
+      <a href="index.html" class="dropbtn">Forside</a>
+      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Priser</button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Sejltur</a>
+        <a class="dropdown-item" href="#">Vandcykler</a>
+        <a class="dropdown-item" href="#">Kanoudlejning</a>
+        <a class="dropdown-item" href="#">Lej en turbåd</a>
       </div>
-    </nav>
+      <a href="index.html" class="dropbtn">Events</a>
+      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Info</button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Åbningstider</a>
+        <a class="dropdown-item" href="#">Find os her</a>
+        <a class="dropdown-item" href="#">Praktisk info</a>
+        <a class="dropdown-item" href="#">Historie</a>
+        <a class="dropdown-item" href="#">FAQ</a>
+      </div>
+      <a href="index.html" class="dropbtn">Kontakt</a>
+      <a href="index.html" class="dropbtn">Køb Billet</a>
+    </div>
+    </div>
 
 
     <header class="headerpic-container">
@@ -95,20 +93,8 @@
       </section>
     </main>
 
-    <footer>
-      <p>
-        Odense aafart
-        Filosofgangen 30, 5000 Odense
-        +45 66 10 70 80
-        E-mail: odense@aafart.dk
-        &copy; Odense Aafart 2018 - Personalepolitik
-      </p>
-      <div class="socialmedia">
-        <i onclick="window.location.href='https://www.facebook.com/odenseaafart/'" class"fab fa-facebook-f"></i>
-        <i onclick="window.location.href='https://www.instagram.com/odenseaafart/?hl=da'" class="fab fa-instagram"></i>
-        <i onclick="window.location.href='https://www.linkedin.com/company/odenseaafart/'" class="fab fa-linkein-in"></i>
-      </div>
-    </footer>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -116,6 +102,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
+
+    <footer id="footer">
+      <p>
+        odenseaafart <br/>
+        Filosofgangen 30, 5000 Odense <br/>
+        +45 66 10 70 80 <br /> <br />
+        E-mail: odense@aafart.dk <br />
+        &copy; Odense Aafart 2018 - Personalepolitik
+      </p>
+      <div class=socialmedia">
+        <i onclick="window.location.href='https://www.facebook.com/odenseaafart/'" class"fab fa-facebook-f"></i>
+        <i onclick="window.location.href='https://www.instagram.com/odenseaafart/?hl=da'" class="fab fa-instagram"></i>
+        <i onclick="window.location.href='https://www.linkedin.com/company/odenseaafart/'" class="fab fa-linkein-in"></i>
+      </div>
+    </footer>
   </body>
 
 </html>
