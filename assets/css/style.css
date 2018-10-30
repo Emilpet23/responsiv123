@@ -10,8 +10,41 @@ nav {
   font-weight: bold;
 }
 
-.dropdown-item {
-  background: #F0EFEF;
-  color: black;
+.btn {
+  margin-top: 60px;
+}
+
+.dropdown-menu {
   border: none;
+  background: #F0EFEF;
+}
+
+.aafartimg2 {
+  width: 90%
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.headerbillede {
+  max-width: 100%;
+  position: relative;
+}
+
+.forsidetext {
+  text-align: center;
+}
+
+.forsidetext h3 {
+  color: #6F9EEA;
+}
+
+.alignmid {
+  text-align: center;
+}
+
+.ikonpic {
+  width: 75px;
+  height: 75px;
 }
