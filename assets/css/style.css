@@ -48,3 +48,48 @@ body {
   width: 75px;
   height: 75px;
 }
+
+.tekst {
+  justify-content: center;
+}
+
+.tekst p {
+  border-left: 1px solid grey;
+  padding: 0 20px 0 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.tekst p:first-child {
+  border-left: none;
+}
+
+.social {
+  height: 12vh;
+  background: #E0F2DE;
+  width: 100%;
+}
+
+.socialmedia {
+text-align: center;
+
+}
+.socialmedia i {
+font-size: 40px;
+margin-top: 25px;
+margin-left: 10px;
+cursor: pointer;
+}
+.socialmedia i:first-child {
+margin-left: none;
+}
+
+.copyright {
+  text-align: center;
+  color: grey;
+}
+
+.futte {
+  background: rgba(108,104,104,.1);
+  height: 15vh;
+  overflow: hidden;
+}
