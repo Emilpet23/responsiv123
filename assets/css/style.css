@@ -14,13 +14,32 @@ nav {
   margin-top: 60px;
 }
 
+.rodbtn {
+  background: #DC3545;
+  color: #FFFFFF;
+  height: 38px;
+}
+
 .dropdown-menu {
   border: none;
   background: #F0EFEF;
 }
 
 .aafartimg2 {
-  width: 90%
+  width: 60%
+}
+
+.navbar-toggler-icon {
+  background: #789FB8;
+}
+
+.nav-item {
+  background: #789FB8;
+  z-index: 1;
+}
+
+.nav-link {
+  margin-left: 20px;
 }
 
 body {
