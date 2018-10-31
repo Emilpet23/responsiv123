@@ -44,7 +44,18 @@ body {
   text-align: center;
 }
 
+.alignmid h7 {
+  color: #6F9EEA;
+}
+
 .ikonpic {
   width: 75px;
   height: 75px;
+}
+
+.thumbnail {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 75%;
 }
